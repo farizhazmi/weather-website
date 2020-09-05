@@ -1,0 +1,125 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+.container-forecast {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.container-forecast p {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+button {
+    background: #888888;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 100px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 1px solid #cccccc;
+    width: 100%;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-search {
+    position: relative;
+}
+
+.search-icon-field {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    width: 30px;
+    opacity: 0.5;
+}
+
+.icon-weather {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.result-description {
+    margin-top: 15px;
+    position: relative;
+}
+
+.result-description p{
+    margin-bottom: 5px;
+}
+
+#location{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#symbol {
+    position: absolute;
+    top: 0px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
